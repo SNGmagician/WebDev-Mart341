@@ -5,7 +5,7 @@ Once upon a midnight dreary, While I studied, weak and weary, Over many a strang
 
 While I clicked my homework, Suddenly there came a warning, And my heart was filled with mourning, Mourning for my dear grades, never fixed.
 
-'Tis not possible!'', I pleaded, But my browser, so conceited, Remained blank, I then repeated, Just a blank and nothing more.
+'Tis not possible!', I pleaded, But my browser, so conceited, Remained blank, I then repeated, Just a blank and nothing more.
 
 With a scream, I was defeated, For my grades were depleted. As I searched the FAQs, and the unknown regions. In search I was for, the secret to my score.
 
