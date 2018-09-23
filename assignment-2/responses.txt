@@ -1,0 +1,18 @@
+responses.txt
+
+
+1.Briefly describe one way how data travels on the internet.
+
+There are 3 ways data can be transported (currently). Electricity, Light, or Radio waves. The most commonly understood way is Electricity. By having a wire that can turn on or off is a easy way to transfer information. This is how most internal systems work, and the foundation of all computing. These bits are combined into packets of information and travel around, router to router until they reach the destination. The packets are accounted for, and verified and all the information has traveled across the internet.
+
+2.What is the relationship between an IP address and the DNS?
+
+The IP Address is the address for a specific device on the internet. Where a DNS is a system to find those IP addresses without the need to know the exact IP address. It's like a nickname for an IP address.
+
+3.What is a cookie?
+
+A cookie is a delicious baked treat that is easy to take on the go. An Internet cookie is a similarly small piece of information that is stored locally on a device by a website, or other system. These cookies allow personalized information to be stored, and used without the website needing to record all the data of its possible millions of users.
+
+4.List the the three basic parts of a URL.
+
+The most basic URLs are 1) Protocol    2) Domain Name    3) Path.    These parts can always be found in a URL, even if it is more complex.
