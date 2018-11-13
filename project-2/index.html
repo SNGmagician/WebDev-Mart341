@@ -56,158 +56,160 @@
 <!--  Notation & Description  -->
 <div id="Notation" class="container">
   <h1>How To Solve A Rubik's Cube </h1>
-  <p> This is a guide on how to solve the 3x3x3 standard Rubik's cube. You must have some variation of a 3x3x3 Rubik's cube to follow this guide. It is also recomended that you have paper and pencil to write down the algorithms to spend time practicing.</p>
-</br>
-  <img src="./images/Solve1.jpg" alt="Solved Cube" title="How To Solve Rubik's Cube" width="=800" height="500" align=center>
-  <img src="./images/Notation.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="600" height="350" ALIGN=left border=1>
-    <h3>Step 1: Notation </h3></br>
-    There are 6 sides that make up the cube. Each of these sides are named in two ways: how you hold the cube, and the color of side.</br>
-  </br>
-    While holding the cube (no matter the color), the face that is facing you is considered the "Front" The face that is facing away from your body is the "Back",
-    with the Left, Right, Up, and Down respectivly. These faces are summarized by the letters F,B,L,R,U,D these letters are used to write algorithms. These algorithms
-     are used to define how to move the puzzle. A normal letter (R) means to turn that side clockwise (as if you were looking at that face directly). A letter with
-     an apostrophy (R') is "inverted", meaning to turn that side counter-clockwise (as if you were looking at that face directly). Through these notations, we can string
-     together many moves to create algorithms. </br>
-      Example: R' D' R D </br>
-     The other way to define a side is by defining it's color. Within a standard 3x3x3 cube, the middle piece will never move. Therefore the middle color defines that side's color.
+    <p> This is a guide on how to solve the 3x3x3 standard Rubik's cube. You must have some variation of a 3x3x3 Rubik's cube to follow this guide. It is also recomended that you have paper and pencil to write down the algorithms to spend time practicing.</p>
+      </br>
+        <img src="./images/Solve1.jpg" alt="Solved Cube" title="How To Solve Rubik's Cube" width="=800" height="500" align=center>
+        <img src="./images/Notation.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="600" height="350" ALIGN=left border=1>
+      <h1>Step 1: Notation </h1></br>
+        There are 6 sides that make up the cube. Each of these sides are named in two ways: how you hold the cube, and the color of side.</br>
+          </br>
+          While holding the cube (no matter the color), the face that is facing you is considered the "Front" The face that is facing away from your body is the "Back",
+          with the Left, Right, Up, and Down respectivly. These faces are summarized by the letters F,B,L,R,U,D these letters are used to write algorithms. These algorithms
+          are used to define how to move the puzzle. A normal letter (R) means to turn that side clockwise (as if you were looking at that face directly). A letter with
+          an apostrophy (R') is "inverted", meaning to turn that side counter-clockwise (as if you were looking at that face directly). Through these notations, we can string
+          together many moves to create algorithms. </br>
+          Example: R' D' R D </br>
+          The other way to define a side is by defining it's color. Within a standard 3x3x3 cube, the middle piece will never move. Therefore the middle color defines that side's color.
 
-</div>
+  </div>
 
 
 <!-- Cross  -->
 <div id="Cross" class="instructions">
   <h2> Step 2: Solve the Cross </h2>
-  <img src="./images/FirstCross_C.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="300" height="200" ALIGN=left border=3>
-  <img src="./images/FirstCross.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="300" height="200" ALIGN=right border=3>
-  The first step to actually solve it, is to chose a side. For this example, it will be red. I recomend that you chose a side, and always solve for it while you learn.
-  Once you have chosen a color, you must solve for the side pieces and connect them to the adjacent sides. This should form a "cross" or an "X". It is VERY important that
-  the side pieces connect with the other center colors as well. </br>
-  Unfortunately, there are no algorithms for this step. You must solve for the cross using logic and reasoning alone. However, here are a few tips: </br>
-  1) Align an edge piece with an adjacent color, then rotate that side to align the colors up to the cross.
-  2) If an edge piece is already on the face you are attempting to solve for, rotate it down to the bottom layer, then reintroduce it properly oriented.
-  3) Once you have a cross formed, double-check all sides for allignment with the adjacent centers.
-</br>
- <img src="./images/FirstCrossSolved.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="600" height="350" ALIGN=center border=3>
-</div>
+    <img src="./images/FirstCross_C.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="300" height="200" ALIGN=left border=3>
+    <img src="./images/FirstCross.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="300" height="200" ALIGN=right border=3>
+      The first step to actually solve it, is to chose a side. For this example, it will be red. I recomend that you chose a side, and always solve for it while you learn.
+      Once you have chosen a color, you must solve for the side pieces and connect them to the adjacent sides. This should form a "cross" or an "X". It is VERY important that
+      the side pieces connect with the other center colors as well. </br>
+      Unfortunately, there are no algorithms for this step. You must solve for the cross using logic and reasoning alone. However, here are a few tips: </br>
+        1) Align an edge piece with an adjacent color, then rotate that side to align the colors up to the cross.
+        2) If an edge piece is already on the face you are attempting to solve for, rotate it down to the bottom layer, then reintroduce it properly oriented.
+        3) Once you have a cross formed, double-check all sides for allignment with the adjacent centers.
+      </br>
+    <img src="./images/FirstCrossSolved.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="600" height="350" ALIGN=center border=3>
+  </div>
 
 <!-- Corners -->
 <div id="Solve Face" class="container">
   <h1> Step 2: Solving Corners </h1>
-  <img src="./images/FirstCorners.jpg" alt="First Cross" title="First Cross" width="300" height="200" ALIGN=left border=3>
-  <img src="./images/FirstCornersRotate.jpg" alt="Rotation" title="rotation" width="300" height="200" ALIGN=right border=3>
-Once you have the cross solved, it is then time to solve the corners of that face. Thus solving the first side, and the first layer as well.
-Once again, it is important to solve for all three colors when placing corners, not just the one face. To do this, you identify the corner piece, and where
-it goes to solve. If it is on the bottom layer, place it under it's locations. Then perform the following algorithm. </br>
-</br>
-  If it is already in place, but not oriented correctly, or if there is a piece in the wrong place, use this same algorithm to empty that space. Or repeat
-  this algorithm to rotate the same piece until oriented correctly. Every time you do this algorithm twice, the top piece will be rotated once.
-</br>
-  <img src="./images/FirstCornersSolved.jpg" alt="One Corner" title="One Corner" width="300" height="200" Align:"Left" border=3/>
-
-</br>
-<BR CLEAR="left">
+    <img src="./images/FirstCorners.jpg" alt="First Cross" title="First Cross" width="300" height="200" ALIGN=left border=3>
+    <img src="./images/FirstCornersRotate.jpg" alt="Rotation" title="rotation" width="300" height="200" ALIGN=right border=3>
+      Once you have the cross solved, it is then time to solve the corners of that face. Thus solving the first side, and the first layer as well.
+      Once again, it is important to solve for all three colors when placing corners, not just the one face. To do this, you identify the corner piece, and where
+      it goes to solve. If it is on the bottom layer, place it under it's locations. Then perform the following algorithm. </br>
+        </br>
+      If it is already in place, but not oriented correctly, or if there is a piece in the wrong place, use this same algorithm to empty that space. Or repeat
+      this algorithm to rotate the same piece until oriented correctly. Every time you do this algorithm twice, the top piece will be rotated once.
+        </br>
+    <img src="./images/FirstCornersSolved.jpg" alt="One Corner" title="One Corner" width="300" height="200" Align:"Left" border=3/>
+        </br>
+  <BR CLEAR="left">
 </div>
+
+<!-- Algorithm -->
 <div id="Corner algorithm" class="algorithm">
   R' D' R D
-</br>
-<img src="./images/FirstSideSolved.jpg" alt="All Corner" title="All Corner" width="300" height="200" Align:"Right" border=3/>
+    </br>
+  <img src="./images/FirstSideSolved.jpg" alt="All Corner" title="All Corner" width="600" height="350" Align:"Right" border=3/>
 </div>
 
 <!-- 2nd Layer  -->
 <div id="Second Layer" class="container">
   <h1> Step 3: Solving Second Layer </h1>
-
-Step 3.1: Turn the cube over. The solved side should now be the Down face. You will remain like this for the rest of the solve.
-</br>
-</br>There are two algorithms for this step. These algorithms take the top edge piece of the Front face and rotate it either to the right side, or the left side of the Front face.
-These will be used to fill in the edges of the second layer. Just as with previous steps: you must line up with the adjacent centers. </br>
-If there is an edge that
-<img src="./images/MidLayerR.jpg" alt="MidLayerR" title="Set-Up Mid layers" width="300" height="200" ALIGN=Right border=3>
-<img src="./images/MidLayerL.jpg" alt="MidLayerL" title="Set-Up Mid layers" width="300" height="200" ALIGN=Left border=3>
+    Step 3.1: Turn the cube over. The solved side should now be the Down face. You will remain like this for the rest of the solve.
+      </br>
+    </br>There are two algorithms for this step. These algorithms take the top edge piece of the Front face and rotate it either to the right side, or the left side of the Front face.
+    These will be used to fill in the edges of the second layer. Just as with previous steps: you must line up with the adjacent centers. </br>
+    If there is an edge that
+    <img src="./images/MidLayerR.jpg" alt="MidLayerR" title="Set-Up Mid layers" width="300" height="200" ALIGN=Right border=3>
+    <img src="./images/MidLayerL.jpg" alt="MidLayerL" title="Set-Up Mid layers" width="300" height="200" ALIGN=Left border=3>
   <BR CLEAR="left">
 </div>
 
+<!-- Algorithm -->
 <div id="MiddleAlgorithm" class="algorithm">
-</br> Left: U' L' U L U F U' F'
-</br>Right: U R U' R' U' F' U F
-</br>
-
- <img src="./images/TopDot.jpg" alt="Mid Layer" title="Solved Mid Layer" width="600" height="350" ALIGN=center border=3>
-
+  </br> Left: U' L' U L U F U' F'
+  </br>Right: U R U' R' U' F' U F
+    </br>
+  <img src="./images/TopDot.jpg" alt="Mid Layer" title="Solved Mid Layer" width="600" height="350" ALIGN=center border=3>
 </div>
 
 <!-- Gettting The Cross -->
 <div id="Last Cross" class="container">
   <h1> Step 4: Solve Top Cross </h1>
-<pre>  When you solved the middle layer, there are 4 possibilities for the top side.
-   1: Dot    2:"L"     3:Line     4:Completed Cross
+    <pre>  When you solved the middle layer, there are 4 possibilities for the top side.
+      1: Dot    2:"L"     3:Line     4:Completed Cross
 
-</pre>
+    </pre>
+      <img src="./images/TopDot.jpg" alt="Top Dot" title="Dot" width="300" height="200" ALIGN=left border=0>
+      <img src="./images/TopL.jpg" alt="Top L" title="L" width="300" height="200" ALIGN=left border=0>
+      <img src="./images/TopLine.jpg" alt="Top Line" title="Line" width="300" height="200" ALIGN=left border=0>
+      <img src="./images/TopCross.jpg" alt="Top Cross" title="Cross" width="300" height="200" ALIGN=left border=0>
+      <BR CLEAR="left">
 
- <img src="./images/TopDot.jpg" alt="Top Dot" title="Dot" width="300" height="200" ALIGN=left border=0>
-  <img src="./images/TopL.jpg" alt="Top L" title="L" width="300" height="200" ALIGN=left border=0>
-   <img src="./images/TopLine.jpg" alt="Top Line" title="Line" width="300" height="200" ALIGN=left border=0>
-    <img src="./images/TopCross.jpg" alt="Top Cross" title="Cross" width="300" height="200" ALIGN=left border=0>
-  <BR CLEAR="left">
-
-<pre>
-
-    All of these situations can be solved with the same algorithm. However, orientation is very important for this step.
-    1 (dot): Perform this from any direction.
-    2 (L): The "L" should be positioned in the "upper-left" side of the top face. The two edge pieces should be to the left, and back.
-    3 (line): The line should be horizontal. Edges should be Left and Right.
-    4 (Cross): Skip this step.
-  </pre>
-
+    <pre>
+      All of these situations can be solved with the same algorithm. However, orientation is very important for this step.
+      1 (dot): Perform this from any direction.
+      2 (L): The "L" should be positioned in the "upper-left" side of the top face. The two edge pieces should be to the left, and back.
+      3 (line): The line should be horizontal. Edges should be Left and Right.
+      4 (Cross): Skip this step.
+    </pre>
 </div>
-<div id="Top Cross" class="algorithm">
- F R U R' U' F'
-</br>
-<img src="./images/TopCross.jpg" alt="Top Cross" title="Cross" width="600" height="350" border=0>
 
+<!-- Algorithm -->
+<div id="Top Cross" class="algorithm">
+  F R U R' U' F'
+  </br>
+  <img src="./images/TopCross.jpg" alt="Top Cross" title="Cross" width="600" height="350" border=0>
 </div>
 
 <!-- Orient the Cross -->
 <div id="Orient Cross" class="container">
   <h1> Step 5: Orient Top Cross </h1>
-</br>
-This step is to allign the edges of the cross to the adjacent centers.
-You should be able to allign two edges already. Either opposite, or adjacent.
-If it is opposite, adjust to the front, and back sides. If it is adjacent, adjust to the right, and the back faces.
-</br>
-<img src="./images/UnallignedTopCross.jpg" alt="Top Cross Unalligned" title="Top Cross Unalligned" width="300" height="200" ALIGN=left border=0>
-<img src="./images/TopCrossSolved.jpg" alt="Top Cross alligned" title="Top Cross alligned" width="300" height="200" ALIGN=right border=0>
-<BR CLEAR="left">
+    </br>
+      This step is to allign the edges of the cross to the adjacent centers.
+      You should be able to allign two edges already. Either opposite, or adjacent.
+      If it is opposite, adjust to the front, and back sides. If it is adjacent, adjust to the right, and the back faces.
+    </br>
+      <img src="./images/UnallignedTopCross.jpg" alt="Top Cross Unalligned" title="Top Cross Unalligned" width="300" height="200" ALIGN=left border=0>
+      <img src="./images/TopCrossSolved.jpg" alt="Top Cross alligned" title="Top Cross alligned" width="300" height="200" ALIGN=right border=0>
+    <BR CLEAR="left">
 </div>
 
+<!-- Algorithm -->
 <div id="Top Cross Allignment" class="algorithm">
    R U R' U R 2U R' U
  </div>
 
 <!-- Assigning Corners -->
 <div id="Orient Corners" class="container">
- <h1> Step 6: Assigning Corners </h1>
-Look around at the top corners. One of them should be in the correct place, even if it is not oriented correctly. Position this on the Front-Right side. If not, just perform algorithm from anywhere.
-This will put the corners in the correct locations.
-<img src="./images/TopCorners.jpg" alt="Top Corners unalligned" title="Top Corners unalligned" width="300" height="200" ALIGN=left border=0>
-<img src="./images/TopCornersAlligned.jpg" alt="Top Corners alligned" title="Top Corners alligned" width="300" height="200" ALIGN=right border=0>
-<BR CLEAR="left">
+  <h1> Step 6: Assigning Corners </h1>
+    Look around at the top corners. One of them should be in the correct place, even if it is not oriented correctly. Position this on the Front-Right side. If not, just perform algorithm from anywhere.
+    This will put the corners in the correct locations.
+      <img src="./images/TopCorners.jpg" alt="Top Corners unalligned" title="Top Corners unalligned" width="300" height="200" ALIGN=left border=0>
+      <img src="./images/TopCornersAlligned.jpg" alt="Top Corners alligned" title="Top Corners alligned" width="300" height="200" ALIGN=right border=0>
+    <BR CLEAR="left">
 </div>
+
+<!-- Algorithm -->
 <div id="Top Corners Allignment" class="algorithm">
- U R U' L' U R' U' L
+  U R U' L' U R' U' L
 </div>
 
 <!-- Solving Last Corners -->
 <div id="SOLVE" class="container">
   <h1> Step 7: SOLVE! </h1>
-  With the corners that are not oriented correctly, simply perform this algorithm (which is also the first one) enough times to solve that corner.</br>
-  THEN: rotate JUST THE TOP layer to position a new unoriented corner. Then continue with the algorithm. Once all corners are oriented, the cube should be one move away from being solved.
-</br>
-<img src="./images/TopCornersAlligned.jpg" alt="Top Corners alligned" title="Top Corners alligned" width="300" height="200" ALIGN=left border=0>
-<img src="./images/SolveCorners1.jpg" alt="Solving Corners" title="Solving Corners" width="300" height="200" ALIGN=center border=0>
-<img src="./images/SolveCorners2.jpg" alt="Move Top" title="Move Top" width="300" height="200" ALIGN=right border=0>
-<BR CLEAR="left">
+    With the corners that are not oriented correctly, simply perform this algorithm (which is also the first one) enough times to solve that corner.</br>
+    THEN: rotate JUST THE TOP layer to position a new unoriented corner. Then continue with the algorithm. Once all corners are oriented, the cube should be one move away from being solved.
+    </br>
+      <img src="./images/TopCornersAlligned.jpg" alt="Top Corners alligned" title="Top Corners alligned" width="300" height="200" ALIGN=left border=0>
+      <img src="./images/SolveCorners1.jpg" alt="Solving Corners" title="Solving Corners" width="300" height="200" ALIGN=center border=0>
+      <img src="./images/SolveCorners2.jpg" alt="Move Top" title="Move Top" width="300" height="200" ALIGN=right border=0>
+    <BR CLEAR="left">
 </div>
+
+<!-- Algorithm -->
 <div id="Corner algorithm" class="algorithm">
   R' D' R D  </br>
   <img src="./images/LastMove.jpg" alt="Last Move" title="Last Move" width="600" height="350" ALIGN=center border=0>
@@ -215,12 +217,13 @@ This will put the corners in the correct locations.
 
 <!-- Finish -->
 <div id="DONE" class="container">
-Move that last layer into position, and finish your first Rubik's Cube!</br>
-<b>Congradulations!</b>
-</br>
-When you're ready, mix it up, and do it again! Keep practicing, and eventually the algorithms will become muscle memory.
-</br>
-<img src="./images/Solved.jpg" alt="Solved" title="Solved" width="600" height="350" ALIGN=center border=0>
+  Move that last layer into position, and finish your first Rubik's Cube!</br>
+    <b>Congradulations!</b>
+    </br>
+  When you're ready, mix it up, and do it again! Keep practicing, and eventually the algorithms will become muscle memory.
+    </br>
+  <img src="./images/Solved.jpg" alt="Solved" title="Solved" width="600" height="350" ALIGN=center border=0>
 </div>
+
       </body>
       </html>
