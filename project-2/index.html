@@ -26,9 +26,20 @@
         }
         .instructions p, pre {
          font-family: Arial;
-        }
-        .contact {
          background-color: lightgray;
+         width: 1200px;
+         margin: auto;
+         padding: 20px;
+         border: 2px solid black;
+        }
+        .algorithm p, pre {
+          font-size: large;
+          background-color: lightgray;
+          width: 1200px;
+          margin: auto;
+          padding: 20px;
+          border: 2px solid black;
+         }
         }
     </style>
       </head>
@@ -41,9 +52,12 @@
   </pre>
 </div>
 
-<!--  Notation  -->
+
+
+<!--  Notation & Description  -->
 <div id="Notation" class="container">
   <h2>How To Solve A Rubik's Cube </h2></br>
+  <p> This is a guide on how to solve the 3x3x3 standard Rubik's cube. You must have some variation of a 3x3x3 Rubik's cube to follow this guide. It is also recomended that you have paper and pencil to write down the algorithms to spend time practicing.
   <img src="./images/Solve1.jpg" alt="Solved Cube" title="How To Solve Rubik's Cube" width="=800" height="500" align=center>
   <img src="./images/Notation.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="600" height="350" ALIGN=left border=1>
     <h3>Step 1: Notation </h3></br>
@@ -62,10 +76,12 @@
 </br>
 </div>
 
+
+<!-- Cross  -->
 <div id="Cross" class="instructions">
   <h2> Step 2: Solve the Cross </h2>
-  <img src="./images/FirstCross_C.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="300" height="200" ALIGN=left border=1>
-  <img src="./images/FirstCross.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="300" height="200" ALIGN=right border=1>
+  <img src="./images/FirstCross_C.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="300" height="200" ALIGN=left border=3>
+  <img src="./images/FirstCross.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="300" height="200" ALIGN=right border=3>
   The first step to actually solve it, is to chose a side. For this example, it will be red. I recomend that you chose a side, and always solve for it while you learn.
   Once you have chosen a color, you must solve for the side pieces and connect them to the adjacent sides. This should form a "cross" or an "X". It is VERY important that
   the side pieces connect with the other center colors as well. </br>
@@ -74,9 +90,20 @@
   2) If an edge piece is already on the face you are attempting to solve for, rotate it down to the bottom layer, then reintroduce it properly oriented.
   3) Once you have a cross formed, double-check all sides for allignment with the adjacent centers.
 </br>
- <img src="./images/FirstCrossSolved.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="600" height="350" ALIGN=center border=1>
+ <img src="./images/FirstCrossSolved.jpg" alt="Cube Notation" title="Rubik's Cube Notation" width="600" height="350" ALIGN=center border=3>
+</div>
 
 
+<!-- Corners -->
+<div id="Solve Face" class="container">
+  <img src="./images/FirstCorners.jpg" alt="First Cross" title="First Cross" width="300" height="200" ALIGN=left border=3>
+Once you have the cross solved, it is then time to solve the corners of that face. Thus solving the first side, and the first layer as well.
+Once again, it is important to solve for all three colors when placing corners, not just the one face. To do this, you identify the corner piece, and where
+it goes to solve. If it is on the bottom layer, place it under it's locations. Then perform the following algorithm. </br>
+</div>
+<div id="Corner algorithm" class="algorithm">
+  R' D' R D
+</div>
 
 
 
