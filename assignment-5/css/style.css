@@ -1,28 +1,27 @@
 body {
-  background-color: black;
-  /*black seemed to be common as a background, so i decided to use it for the body*/
-  padding: 10;
+  background-color: gray;
+  padding: 25;
   text-align: center;
   font-style: italic;
-  font-size: 25;
+  font-size: 30;
   color: yellow;
 }
 .container {
-    color: teal
+    color: black
 }
-#box-one {
+#box {
     font-style: normal;
-    background-color: lightblue;
-    text-align: right;
+    background-color: rgb(255, 65, 65);
+    text-align: left;
     font-size: 30
 }
-#box-two {
+#PuzzleCube {
     font-style: normal;
     background-color: gold;
     text-align: center;
-    font-size: 50
+    font-size: 30
 }
 #box-three {
-    background-color: pink;
-    text-align: left;
+    background-color: lightblue;
+    text-align: right;
 }
