@@ -12,8 +12,8 @@ body {
 #movies {
     font-style: normal;
     background-color: lightblue;
-    text-align: right;
-    font-size: 30
+    text-align: left;
+    font-size: 50
 }
 #PuzzleCube {
     font-style: normal;
@@ -22,6 +22,6 @@ body {
     font-size: 50
 }
 #box-three {
-    background-color: pink;
-    text-align: left;
+    background-color: ;
+    text-align: right;
 }
