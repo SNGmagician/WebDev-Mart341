@@ -3,7 +3,7 @@ body {
   padding: 25;
   text-align: center;
   font-style: italic;
-  font-size: 75;
+  font-size: 500;
   color: yellow;
 }
 .container {
@@ -13,13 +13,13 @@ body {
     font-style: normal;
     background-color: rgb(255, 65, 65);
     text-align: left;
-    font-size: 50
+    font-size: 500
 }
 #PuzzleCube {
     font-style: normal;
     background-color: gold;
     text-align: center;
-    font-size: 50
+    font-size: 800
 }
 #box-three {
     background-color: lightblue;
