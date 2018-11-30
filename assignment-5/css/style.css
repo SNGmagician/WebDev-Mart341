@@ -9,13 +9,13 @@ body {
 .container {
     color: teal
 }
-#box-one {
+#movies {
     font-style: normal;
     background-color: lightblue;
     text-align: right;
     font-size: 30
 }
-#box-two {
+#PuzzleCube {
     font-style: normal;
     background-color: gold;
     text-align: center;
