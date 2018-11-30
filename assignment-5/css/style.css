@@ -11,7 +11,7 @@ body {
 }
 #movies {
     font-style: normal;
-    background-color: lightblue;
+    background-color: red;
     text-align: left;
     font-size: 50
 }
@@ -22,6 +22,6 @@ body {
     font-size: 50
 }
 #box-three {
-    background-color: ;
+    background-color: lightblue;
     text-align: right;
 }
