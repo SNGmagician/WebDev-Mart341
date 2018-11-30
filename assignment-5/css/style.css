@@ -1,27 +1,28 @@
 body {
-  background-color: gray;
-  padding: 25;
+  background-color: black;
+  /*black seemed to be common as a background, so i decided to use it for the body*/
+  padding: 10;
   text-align: center;
   font-style: italic;
-  font-size: 500;
+  font-size: 25;
   color: yellow;
 }
 .container {
-    color: black
+    color: teal
 }
-#movies {
+#box-one {
     font-style: normal;
-    background-color: rgb(255, 65, 65);
-    text-align: left;
-    font-size: 500
+    background-color: lightblue;
+    text-align: right;
+    font-size: 30
 }
-#PuzzleCube {
+#box-two {
     font-style: normal;
     background-color: gold;
     text-align: center;
-    font-size: 800
+    font-size: 50
 }
 #box-three {
-    background-color: lightblue;
-    text-align: right;
+    background-color: pink;
+    text-align: left;
 }
