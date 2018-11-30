@@ -7,11 +7,11 @@ body {
   color: yellow;
 }
 .container {
-    color: teal
+    color: black
 }
 #movies {
     font-style: normal;
-    background-color: red;
+    background-color: rgb(255, 65, 65);
     text-align: left;
     font-size: 50
 }
