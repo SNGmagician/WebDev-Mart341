@@ -13,13 +13,13 @@ body {
     font-style: normal;
     background-color: rgb(255, 65, 65);
     text-align: left;
-    font-size: 30;
+    font-size: 50;
 }
 #box-two {
     font-style: normal;
     background-color: gold;
     text-align: center;
-    font-size: 30;
+    font-size: 50;
 }
 #box-three {
     background-color: lightblue;
