@@ -10,12 +10,12 @@ body {
     color: black
 }
 #box-one {
-    font-size: 50;
+    font-size:50;
     background-color: rgb(255, 65, 65);
     text-align: left;
 }
 #box-two {
-    font-size: 50;
+    font-size:50;
     background-color: gold;
     text-align: center;
 }
