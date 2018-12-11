@@ -1,9 +1,9 @@
 body {
- background-color: rgb(182, 182, 182);
+ background-color: rgb(255, 241, 226);
  text-align: center;
 }
 .container{
-   background-color: rgb(255, 241, 226);
+   background-color: rgb(182, 182, 182);
    width: 1250px;
    margin: auto;
    padding: 20px;
