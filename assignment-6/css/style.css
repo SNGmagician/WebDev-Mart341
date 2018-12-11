@@ -1,0 +1,61 @@
+.container{
+   background-color: rgb(128,0,0);
+   width: 1250px;
+   margin: auto;
+   padding: 20px;
+   border: 10px dashed rgb(255,223,0);
+   font-family:'Caveat',cursive;
+ }
+ h1 {
+ /*Color Text*/
+    color: black;
+    text-align: center !important;
+     font-family: 'Caveat', cursive;
+     font-size: 50px
+
+ }
+p{
+  /*Color Text*/
+   color: black
+   font-size: 30px;
+   /* Set Position */
+   text-align: center !important;
+    font-family: 'Caveat', cursive;
+    line-height: normal;
+}
+/* an example of a pseudo*/
+p::first-line{
+  color: rgb(255,223,0);
+
+}
+ pre{
+   /*Color Text*/
+    color: black
+    font-size: 80px;
+    /* Set Position */
+    text-align: center !important;
+    font-family: 'Brushci', cursive;
+    line-height: normal;
+ }
+
+ .element-1{
+   font-family: 'Bernshc', cursive;
+   font-size: 30px}
+   a:hover {
+     color:  rgb(255,223,0);
+   font-style: italic;
+ }
+ a:active {
+    color: white;
+font-style: 'Castellar', cursive;
+}
+
+
+
+ #img {
+
+ padding-left: 25px;
+ padding-top: 7px;
+ float: left;
+
+ }

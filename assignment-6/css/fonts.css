@@ -1,0 +1,7 @@
+/*adding link for fonts*/
+<link href="https://fonts.googleapis.com/css?family=Caveat|Kalam" rel="stylesheet">
+
+*{
+  font-family: 'Caveat', cursive;
+font-family: 'Kalam', cursive;
+}
