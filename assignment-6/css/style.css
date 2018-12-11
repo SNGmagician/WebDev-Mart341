@@ -8,7 +8,7 @@ body {
    margin: auto;
    padding: 20px;
    border: 30px dashed rgb(125,0,0);
-   font-family:'Bern',cursive;
+   font-family:'Castelar',cursive;
  }
  h1 {
 
@@ -23,7 +23,7 @@ p{
    color: white
    font-size: 30px;
    text-align: center !important;
-    font-family: 'Castelar', cursive;
+    font-family: 'Brush', cursive;
     line-height: normal;
 }
 
@@ -36,7 +36,7 @@ p::first-line{
     color: black
     font-size: 80px;
     text-align: center !important;
-    font-family: 'Brush', cursive;
+    font-family: 'Bern', cursive;
     line-height: normal;
  }
 
@@ -49,7 +49,7 @@ p::first-line{
  }
  a:active {
     color: white;
-font-style: 'Castelar', cursive;
+font-style: 'Bern', cursive;
 }
 
 
