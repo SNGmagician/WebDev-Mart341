@@ -1,33 +1,32 @@
 body {
- background-color: gold;
+ background-color: rgb(182, 182, 182);
  text-align: center;
 }
 .container{
-   background-color: rgb(125,0,0);
+   background-color: rgb(255, 241, 226);
    width: 1250px;
    margin: auto;
    padding: 20px;
-   border: 30px dashed gold;
-   font-family:'Brush',cursive;
+   border: 30px dashed rgb(125,0,0);
+   font-family:'Bern',cursive;
  }
  h1 {
- /*Color Text*/
+
     color: black;
     text-align: center !important;
-     font-family: 'Castelar';
+     font-family: 'Bern';
      font-size: 50px
 
  }
 p{
-  /*Color Text*/
+
    color: white
    font-size: 30px;
-   /* Set Position */
    text-align: center !important;
-    font-family: 'Bern', cursive;
+    font-family: 'Castelar', cursive;
     line-height: normal;
 }
-/* an example of a pseudo*/
+
 p::first-line{
   color: white;
 
@@ -36,7 +35,6 @@ p::first-line{
    /*Color Text*/
     color: black
     font-size: 80px;
-    /* Set Position */
     text-align: center !important;
     font-family: 'Brush', cursive;
     line-height: normal;
