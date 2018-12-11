@@ -1,3 +1,7 @@
+body {
+ background-color: yellow;
+ text-align: center;
+}
 .container{
    background-color: rgb(128,0,0);
    width: 1250px;
@@ -16,7 +20,7 @@
  }
 p{
   /*Color Text*/
-   color: black
+   color: white
    font-size: 30px;
    /* Set Position */
    text-align: center !important;
