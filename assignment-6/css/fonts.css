@@ -1,20 +1,20 @@
 /*adding link for fonts*/
 @font-face {
   font-family: 'Bern';
-  src: url('../fonts/BERNHC.ttf') format('truetype');
+  src: url('../fonts/BERNHC.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
 font-family: 'Brush';
-src: url('../fonts/BRUSHSCI.ttf') format('truetype');
+src: url('../fonts/BRUSHSCI.TTF') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
 font-family: 'Castelar';
-src: url('../fonts/CASTELAR.ttf') format('truetype');
+src: url('../fonts/CASTELAR.TTF') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
