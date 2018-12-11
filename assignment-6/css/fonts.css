@@ -1,7 +1,21 @@
 /*adding link for fonts*/
-<link href="">
+@font-face {
+font-family: 'Brush';
+src: url('../fonts/BRUSHSCI.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
 
-*{
-  font-family: 'Caveat', cursive;
-font-family: 'Kalam', cursive;
+@font-face {
+font-family: 'Castelar';
+src: url('../fonts/CASTELAR.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Bern';
+src: url('../fonts/BERNHC.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
 }

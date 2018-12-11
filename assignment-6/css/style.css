@@ -7,14 +7,14 @@ body {
    width: 1250px;
    margin: auto;
    padding: 20px;
-   border: 15px dashed gold;
-   font-family:'Caveat',cursive;
+   border: 5px dashed gold;
+   font-family:'Brush',cursive;
  }
  h1 {
  /*Color Text*/
     color: black;
     text-align: center !important;
-     font-family: 'Caveat', cursive;
+     font-family: 'Castelar', cursive;
      font-size: 50px
 
  }
@@ -24,12 +24,12 @@ p{
    font-size: 30px;
    /* Set Position */
    text-align: center !important;
-    font-family: 'Caveat', cursive;
+    font-family: 'Bern', cursive;
     line-height: normal;
 }
 /* an example of a pseudo*/
 p::first-line{
-  color: rgb(255,223,0);
+  color: white;
 
 }
  pre{
@@ -38,12 +38,12 @@ p::first-line{
     font-size: 80px;
     /* Set Position */
     text-align: center !important;
-    font-family: 'Brushci', cursive;
+    font-family: 'Brush', cursive;
     line-height: normal;
  }
 
  .element-1{
-   font-family: 'Bernshc', cursive;
+   font-family: 'Brush', cursive;
    font-size: 30px}
    a:hover {
      color:  rgb(255,223,0);
@@ -51,7 +51,7 @@ p::first-line{
  }
  a:active {
     color: white;
-font-style: 'Castellar', cursive;
+font-style: 'Castelar', cursive;
 }
 
 
