@@ -3,11 +3,11 @@ body {
  text-align: center;
 }
 .container{
-   background-color: rgb(128,0,0);
+   background-color: rgb(125,0,0);
    width: 1250px;
    margin: auto;
    padding: 20px;
-   border: 25px dashed rgb(255,223,0);
+   border: 15px dashed gold;
    font-family:'Caveat',cursive;
  }
  h1 {
