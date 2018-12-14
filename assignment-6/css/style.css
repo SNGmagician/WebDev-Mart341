@@ -7,7 +7,7 @@ body {
    width: 1250px;
    margin: auto;
    padding: 20px;
-   border: 30px line rgb(125,0,0);
+   border: 30px solid rgb(125,0,0);
    font-family:'Castelar',cursive;
  }
  h1 {
