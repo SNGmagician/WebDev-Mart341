@@ -1,0 +1,136 @@
+/*------
+| FONTS |
+-------*/
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700');
+
+
+/*-------------------
+| PAGE-WIDE ELEMENTS |
+--------------------*/
+html {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  margin: 0;
+}
+body {
+  width: inherit;
+  font-family: 'Space Mono', monospace;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+
+/*-----------
+| BACKGROUND |
+------------*/
+#image-container {
+  /* positioning: */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.background-image {
+/* layering: */
+  z-index: -1;
+}
+#overlay {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  opacity: .3;
+/* positioning: */
+  position: absolute;
+  top: 0;
+  left: 0;
+/* layering: */
+  z-index: 0;
+}
+
+
+/*-------------
+| PAGE CONTENT |
+--------------*/
+#content-container {
+  width: inherit;
+/* positioning */
+  position: absolute;
+  bottom: 5%;
+}
+.name-traits {
+  font-size: 2em;
+  text-align: right;
+}
+h1 {
+  background-color: rgba(255,255,255,.5);
+  border: 3px solid #FFFFFF;
+  color: #000000;
+  font-size: 3em;
+  text-transform: uppercase;
+  padding-right: 30px;
+  margin: 0;
+}
+p {
+  color: #000000;
+  margin: 0;
+  padding-right: 30px;
+  font-weight: bold;
+}
+
+
+/*------------------------------------
+| GITHUB PROFILE LINK (Double Arrows) |
+------------------------------------*/
+.github-profile-link-container {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #FFFFFF;
+  border-radius: 100px;
+/* positioning: */
+  float: right;
+  margin: 30px;
+  padding: 10px;
+}
+.github-profile-link-container:hover {
+  background-color: #FCBA13;
+}
+.github-profile-link-container>img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+
+/*-----------------
+| ASSIGNMENT LINKS |
+------------------*/
+.assignment-links {
+/* positioning: */
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+.assignment-links a {
+  font-size: 20px;
+  padding: 5px 7px;
+  background-color: #B1DFD8;
+  border: 5px solid transparent;
+  border-radius: 100%;
+  color: #000000;
+  font-weight: bold;
+}
+.assignment-links a:hover {
+  border: 5px solid white;
+  position: relative;
+  bottom: 10px;
+}
