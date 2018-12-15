@@ -103,18 +103,18 @@ ul {
   list-style-type: none;
 }
 li {
-  display: inline;
+  display: block;
 }
-.assignment-links a {  font-size: 20px;
-  padding: 5px 7px;
-  background-color: #B1DFD8;
+.assignment-links a {  font-size: 50px;
+  padding: 10px;
+  background-color: rgb(74, 45, 255);
   border: 5px solid transparent;
   border-radius: 100%;
-  color: #000000;
+  color: 0;
   font-weight: bold;
 }
 .assignment-links a:hover {
-  border: 5px solid white;
+  border: 10px solid white;
   position: relative;
   bottom: 10px;
 }
