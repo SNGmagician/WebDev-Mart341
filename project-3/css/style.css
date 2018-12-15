@@ -36,10 +36,7 @@ body {
   z-index: 0;
 }
 
-
-/*-------------
-| PAGE CONTENT |
---------------*/
+ /* PAGE CONTENT  */
 #content-container {
   width: inherit;
 /* positioning */
@@ -94,8 +91,8 @@ p {
 .assignment-links {
 /* positioning: */
   position: absolute;
-  top: -30px;
-  left: 0;
+  top: -10px;
+  left: 10;
 }
 ul {
   list-style-type: none;
