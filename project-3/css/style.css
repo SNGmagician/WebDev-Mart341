@@ -1,5 +1,5 @@
 html {
-  width: 100%;
+  width: 75%;
   height: 100%;
     background-size: cover;
   margin: 0;
@@ -22,7 +22,7 @@ body {
   z-index: -1;
 }
 #overlay {
-  width: 75%;
+  width: 100%;
   height: 100%;
   background-image: url(../images/Dice.jpg);
   background-size: cover;
