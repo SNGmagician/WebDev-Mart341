@@ -22,7 +22,7 @@ body {
   z-index: -1;
 }
 #overlay {
-  width: 100%;
+  width: 50%;
   height: 100%;
   background-image: url(../images/Dice.jpg);
   background-size: cover;
@@ -35,7 +35,7 @@ body {
   z-index: 0;
 }
 
- /* PAGE CONTENT  */
+ /* Main */
 #content-container {
   width: inherit;
 /* positioning */
