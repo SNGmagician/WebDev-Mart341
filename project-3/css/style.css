@@ -73,7 +73,7 @@ p {
 /* positioning: */
   float: right;
   margin: 30px;
-  padding: 10px;
+  padding: 0px;
 }
 .github-profile-link-container:hover {
   background-color: #FFFFFF;
