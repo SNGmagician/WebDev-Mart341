@@ -68,18 +68,20 @@ p {
 .github-profile-link-container {
   width: 50px;
   height: 50px;
-  border: 3px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   border-radius: 100px;
 /* positioning: */
   float: right;
   margin: 30px;
+  padding: 10px;
 }
 .github-profile-link-container:hover {
   background-color: #FFFFFF;
 }
 .github-profile-link-container>img {
-  width: 30px;
+  width: 60px;
   height: 60px;
+  margin: 10px;
 }
 
 
