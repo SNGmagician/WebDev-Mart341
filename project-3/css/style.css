@@ -73,7 +73,6 @@ p {
 /* positioning: */
   float: right;
   margin: 30px;
-  padding: 0px;
 }
 .github-profile-link-container:hover {
   background-color: #FFFFFF;
@@ -81,7 +80,6 @@ p {
 .github-profile-link-container>img {
   width: 60px;
   height: 60px;
-  margin: 0px;
 }
 
 
